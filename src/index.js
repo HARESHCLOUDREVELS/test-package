@@ -1,2 +1,2 @@
-export { default as CommonTextField } from "./Component/CommonTextField";
-export { default as Button } from "./Component/Button";
+export { default as CommonTextField } from "./components/CommonTextField.jsx";
+export { default as Button } from "./components/Button.jsx";
