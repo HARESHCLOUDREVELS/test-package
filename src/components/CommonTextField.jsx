@@ -36,7 +36,7 @@ const CommonTextField = ({
         <TextField
           label={label || ""}
           value={textFieldValue}
-          variant={variant as "standard" | "filled" | "outlined"}
+          variant={variant}
           onChange={handleChange}
           onBlur={handleBlur}
           inputProps={{
